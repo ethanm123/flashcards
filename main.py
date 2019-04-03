@@ -2,6 +2,7 @@ import os
 import hashlib
 current_user = ""
 import random
+os.makedirs("./users/")
 
 class user(): #basic user class
     def __init__(self, name, password):
@@ -9,7 +10,7 @@ class user(): #basic user class
         self.password = password
 
     def __repr__(self):
-        return "Username: {0} Password: {1}".format(self.name, self.password) #for troubleshooting
+        return f"Username: {self.name} Password: {self.password}" #for troubleshooting
 
     def get_details(self): #setting a username and password, also adding that to the document of users
         self.name = input("Please enter a username")
