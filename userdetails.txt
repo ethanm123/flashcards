@@ -1,0 +1,1 @@
+The users details will be stored here. This is for the program to reference when writing to the file.
