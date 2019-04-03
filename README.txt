@@ -1,0 +1,2 @@
+# flashcards
+This allows the user to create accounts locally, each with a username and password. Passwords are hashed using the sha256 hash. You can login and create a topic. After creating a topic, you can add questions to it and test yourself. The questions are sent out in a random order. You can also drag and drop already made text files into your user folder, as long as they are in the correct order of question answer. You can then test yourself on that.
